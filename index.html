@@ -6,13 +6,7 @@
     <body>
 
         <div id="app">
-            {{ message }}
-        </div>
-
-        <div id="app-2">
-          <span v-bind:title="message">
-            Hover!
-          </span>
+          <span v-if="seen">Now you see me</span>
         </div>
 
         <script src="index.js"></script>

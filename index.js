@@ -1,14 +1,12 @@
+// var app = new Vue({ 
+//   el: '#app',
+//   data: {
+//       message: 'Hello Vue!'
+//   }
+// });
 var app = new Vue({ 
   el: '#app',
   data: {
-      message: 'Hello Vue!'
+      seen: true
   }
 });
-app.message = 'I have data';
-
-var app2 = new Vue({
-  el: '#app-2',
-  data: {
-    message: 'hoge' + new Date().toLocaleString()
-  }
-})
