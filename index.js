@@ -7,10 +7,11 @@
 var app = new Vue({ 
   el: '#app',
   data: {
-    todos: [
-      { text: 'hoge' },
-      { text: 'fuga' },
-      { text: 'moga' },
-    ]
+    message: 'hogehoge'
+  },
+  methods: {
+    reverseMessage: function() {
+      this.message = this.message.split('').reverse().join('')
+    }
   }
 });
