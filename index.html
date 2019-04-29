@@ -5,9 +5,9 @@
     </head>
     <body>
 
-        <div id="app">
-          <span v-if="seen">Now you see me</span>
-        </div>
+    <div id="app">
+        <li v-for="todo in todos">{{todo.text}}</li>
+    </div>
 
         <script src="index.js"></script>
     </body>

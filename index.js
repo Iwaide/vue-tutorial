@@ -7,6 +7,10 @@
 var app = new Vue({ 
   el: '#app',
   data: {
-      seen: true
+    todos: [
+      { text: 'hoge' },
+      { text: 'fuga' },
+      { text: 'moga' },
+    ]
   }
 });
